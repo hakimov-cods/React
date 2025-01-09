@@ -1,5 +1,6 @@
 import './App.css'
-import Main from './widgets/main/main'
+import Forme from './widgets/forme/Forme'
+import Main from './widgets/main/Main'
 import Navbar from './widgets/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
       <Main/>
       <Navbar/>
-      
+      <Forme/>
     </>
   )
 }
